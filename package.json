@@ -6,24 +6,21 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0",
+    "mongodb":"*",
+    "monk": "^1.0.1",
     "monk": "https://github.com/vccabral/monk.git",
-    "express-messages": "*",
-    "express-session": "^1.17.1",
-    "express-validator": "^5.3.1",
-    "connect-flash": "*",
-    "mongodb": "*",
-    "mongoose": "*",
-    "multer": "*",
-    "passport": "*",
-    "passport-http": "*",
-    "passport-local": "*",
-    "serve-favicon": "*",
-    "moment": "*"
+    "connect-flash":"*",
+    "express-validator":"*",
+    "express-session":"*",
+    "express-messages":"*",
+    "multer":"*",
+    "moment":"*"
   }
 }
