@@ -1,38 +1,35 @@
 body {
-  font: 15px  Helvetica, Arial, sans-serif;
+  font: 15px Helvetica, Arial, sans-serif;
   background: #f4f4f4;
-  color: #666;
+  color:#666;
 }
 
-
 .logo{
-	text-align:center;
+	text-align: center;
 	margin:auto;
 	display:block;
 }
 
-
-.container {
+.container{
 	width:750px;
 	border: 1px solid #ccc;
 	margin: 20px auto;
-	padding: 20px;
+	padding:20px;
 	border-top: #83cd39 3px solid;
 }
 
 .clr{
-	clear:both;
+	clear: both;
 }
 
-ul {
+ul{
 	padding:0;
 	margin:0;
 }
 
-
 h1,h2,h3,p{
 	padding:5px 0;
-	margin-bottom: 0;
+	margin-bottom:0;
 }
 
 p{
@@ -45,10 +42,10 @@ nav{
 	overflow:auto;
 	height:40px;
 	padding:20px 0 0 10px;
-	font-size:18px;
+	font-size: 18px;
 }
 
-nav li {
+nav li{
 	float:left;
 	list-style:none;
 }
@@ -90,4 +87,29 @@ a.more{
 .post h1 a{
 	color:#666;
 	text-decoration: none;
+}
+
+input, select, textarea{
+	margin-bottom:15px;
+}
+
+label{
+	display:inline-block;
+	width:180px;
+}
+
+input[type='text'], select, textarea{
+	padding:3px;
+	height:20px;
+	width:200px;
+	border:1px #ccc solid;
+}
+
+select{
+	height:28px;
+}
+
+textarea{
+	height:70px;
+	width:400px;
 }
